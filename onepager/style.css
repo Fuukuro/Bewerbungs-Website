@@ -1,0 +1,187 @@
+body {
+    -moz-transition:4s all ease;
+    -webkit-transition:4s all ease;
+}
+ 
+.roll {
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+}
+
+body {
+	margin: 0;
+    padding: 0;
+	background: transparent url('div.jpg') repeat center center;
+}
+
+header {
+	
+	margin: 0;
+    padding: 0;
+	font-family:Comic Sans MS;
+	position: fixed;
+	height: 15%;
+	width: 100%;
+	margin-left:10%;
+	font-size: 1.5vw;
+	background: transparent url('header.jpg') no-repeat center center;
+	background-size:cover;
+	color: white;
+}
+
+#div_1 {
+	margin: 0;
+    padding: 0;
+	font-family:Comic Sans MS;
+	padding:1px 16px;
+    margin-left:10%;
+	padding-top:8%;
+	font-size: 1.5vw; 
+	background: transparent url('div.jpg') no-repeat center center;
+	background-size:cover;
+	color: white;
+}
+
+#div_2 {
+	margin: 0;
+    padding: 0;
+	font-family:Comic Sans MS;
+	padding:1px 16px;
+    margin-left:10%;
+	padding-top:8%;
+	font-size: 1.5vw;
+	background: transparent url('div.jpg') no-repeat center center;
+	background-size:cover;	
+	color: white;
+}
+
+#div_3 {
+	margin: 0;
+    padding: 0;
+	font-family:Comic Sans MS;
+	padding:1px 16px;
+    margin-left:10%;
+	padding-top:8%;
+	font-size: 1.5vw;
+	background: transparent url('div.jpg') no-repeat center center;
+	background-size:cover;
+	color: white;
+}
+
+#div_4 {
+	margin: 0;
+    padding: 0;
+	font-family:Comic Sans MS;
+	padding:1px 16px;
+    margin-left:10%;
+	padding-top:8%;
+	font-size: 1.5vw; 
+	background: transparent url('div.jpg') no-repeat center center;
+	background-size:cover;
+	color: white;
+}
+
+h1{
+	font-size: 3vw !important;
+}
+
+h2{
+	font-size: 2.5vw !important;
+}
+
+h3{
+	font-size: 2.5vw !important;
+}
+
+h4{
+	font-size: 2.5vw !important;
+}
+
+table{
+    border: 5px solid black;
+	background-color: #252226;
+	width:75%
+}
+
+th {
+    border: 5px solid black;
+	background-color: #252226;
+	width:50%
+}
+
+td {
+    border: 5px solid black;
+	background-color: #252226;
+	width:50%
+}
+
+#headtable {
+    border: 0px solid black;
+	background-color: transparent; 
+	width:70%
+}
+
+#supertd, #supertd2{
+    border: 0px solid black;
+	background-color: transparent; 
+
+	width:50%
+}
+
+#Carousel {
+	margin: 0;
+    padding: 0;
+	font-size: 3vw; 
+	text-align: center
+}
+
+#CarouselK {
+	margin: 0;
+    padding: 0;
+	font-size: 3vw; 
+	text-align: center;
+	width:50%;
+	height:50%;
+}
+
+img {
+width:100%;
+height:50%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: grey;
+    position: fixed;
+    height: 100%;
+	width: 10%;
+	overflow: auto;
+	font-size: 1.5vw;
+	border: 1px solid #555;
+	background: transparent url('header.jpg') no-repeat center center;
+	background-size:cover;
+	
+}
+
+li {
+    text-align: center;
+    border-bottom: 1px solid #555;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+
+li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
