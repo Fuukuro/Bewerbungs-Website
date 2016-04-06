@@ -4,7 +4,10 @@ $(document).ready(function(){
   $('#div_2').hide();
   $('#div_3').hide();
   $('#div_4').hide();
+  $('#barrel2').hide();
 
+  
+  
   $('#homebt').click(function(){ 
       
       
@@ -41,9 +44,13 @@ $(document).ready(function(){
   
 	$('#barrel1').click(function() {
     $('body').addClass('roll');
+	$('#barrel1').hide();
+	$('#barrel2').show();
 	});
 	
 	$('#barrel2').click(function() {
 	$('body').removeClass('roll');
+	$('#barrel2').hide();
+	$('#barrel1').show();
 	});
 });
